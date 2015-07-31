@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F7614F1B6B1712003681C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F7614E1B6B1712003681C7 /* AppDelegate.swift */; };
+		46F761511B6B1712003681C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F761501B6B1712003681C7 /* ViewController.swift */; };
+		46F761541B6B1712003681C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F761521B6B1712003681C7 /* Main.storyboard */; };
+		46F761561B6B1712003681C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F761551B6B1712003681C7 /* Images.xcassets */; };
+		46F761591B6B1712003681C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F761571B6B1712003681C7 /* LaunchScreen.xib */; };
+		46F761651B6B1712003681C7 /* yachtGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F761641B6B1712003681C7 /* yachtGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F7615F1B6B1712003681C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F761411B6B1712003681C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F761481B6B1712003681C7;
+			remoteInfo = yachtGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F761491B6B1712003681C7 /* yachtGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yachtGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F7614D1B6B1712003681C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F7614E1B6B1712003681C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F761501B6B1712003681C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F761531B6B1712003681C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F761551B6B1712003681C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46F761581B6B1712003681C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46F7615E1B6B1712003681C7 /* yachtGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yachtGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F761631B6B1712003681C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F761641B6B1712003681C7 /* yachtGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yachtGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F761461B6B1712003681C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F7615B1B6B1712003681C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F761401B6B1712003681C7 = {
+			isa = PBXGroup;
+			children = (
+				46F7614B1B6B1712003681C7 /* yachtGame */,
+				46F761611B6B1712003681C7 /* yachtGameTests */,
+				46F7614A1B6B1712003681C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F7614A1B6B1712003681C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F761491B6B1712003681C7 /* yachtGame.app */,
+				46F7615E1B6B1712003681C7 /* yachtGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F7614B1B6B1712003681C7 /* yachtGame */ = {
+			isa = PBXGroup;
+			children = (
+				46F7614E1B6B1712003681C7 /* AppDelegate.swift */,
+				46F761501B6B1712003681C7 /* ViewController.swift */,
+				46F761521B6B1712003681C7 /* Main.storyboard */,
+				46F761551B6B1712003681C7 /* Images.xcassets */,
+				46F761571B6B1712003681C7 /* LaunchScreen.xib */,
+				46F7614C1B6B1712003681C7 /* Supporting Files */,
+			);
+			path = yachtGame;
+			sourceTree = "<group>";
+		};
+		46F7614C1B6B1712003681C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F7614D1B6B1712003681C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46F761611B6B1712003681C7 /* yachtGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F761641B6B1712003681C7 /* yachtGameTests.swift */,
+				46F761621B6B1712003681C7 /* Supporting Files */,
+			);
+			path = yachtGameTests;
+			sourceTree = "<group>";
+		};
+		46F761621B6B1712003681C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F761631B6B1712003681C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F761481B6B1712003681C7 /* yachtGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F761681B6B1712003681C7 /* Build configuration list for PBXNativeTarget "yachtGame" */;
+			buildPhases = (
+				46F761451B6B1712003681C7 /* Sources */,
+				46F761461B6B1712003681C7 /* Frameworks */,
+				46F761471B6B1712003681C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yachtGame;
+			productName = yachtGame;
+			productReference = 46F761491B6B1712003681C7 /* yachtGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F7615D1B6B1712003681C7 /* yachtGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F7616B1B6B1712003681C7 /* Build configuration list for PBXNativeTarget "yachtGameTests" */;
+			buildPhases = (
+				46F7615A1B6B1712003681C7 /* Sources */,
+				46F7615B1B6B1712003681C7 /* Frameworks */,
+				46F7615C1B6B1712003681C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F761601B6B1712003681C7 /* PBXTargetDependency */,
+			);
+			name = yachtGameTests;
+			productName = yachtGameTests;
+			productReference = 46F7615E1B6B1712003681C7 /* yachtGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F761411B6B1712003681C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "仙石晃久";
+				TargetAttributes = {
+					46F761481B6B1712003681C7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					46F7615D1B6B1712003681C7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 46F761481B6B1712003681C7;
+					};
+				};
+			};
+			buildConfigurationList = 46F761441B6B1712003681C7 /* Build configuration list for PBXProject "yachtGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F761401B6B1712003681C7;
+			productRefGroup = 46F7614A1B6B1712003681C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F761481B6B1712003681C7 /* yachtGame */,
+				46F7615D1B6B1712003681C7 /* yachtGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F761471B6B1712003681C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F761541B6B1712003681C7 /* Main.storyboard in Resources */,
+				46F761591B6B1712003681C7 /* LaunchScreen.xib in Resources */,
+				46F761561B6B1712003681C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F7615C1B6B1712003681C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F761451B6B1712003681C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F761511B6B1712003681C7 /* ViewController.swift in Sources */,
+				46F7614F1B6B1712003681C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F7615A1B6B1712003681C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F761651B6B1712003681C7 /* yachtGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F761601B6B1712003681C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F761481B6B1712003681C7 /* yachtGame */;
+			targetProxy = 46F7615F1B6B1712003681C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F761521B6B1712003681C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F761531B6B1712003681C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F761571B6B1712003681C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F761581B6B1712003681C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F761661B6B1712003681C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46F761671B6B1712003681C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F761691B6B1712003681C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yachtGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F7616A1B6B1712003681C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yachtGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F7616C1B6B1712003681C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = yachtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yachtGame.app/yachtGame";
+			};
+			name = Debug;
+		};
+		46F7616D1B6B1712003681C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = yachtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yachtGame.app/yachtGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F761441B6B1712003681C7 /* Build configuration list for PBXProject "yachtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F761661B6B1712003681C7 /* Debug */,
+				46F761671B6B1712003681C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F761681B6B1712003681C7 /* Build configuration list for PBXNativeTarget "yachtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F761691B6B1712003681C7 /* Debug */,
+				46F7616A1B6B1712003681C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F7616B1B6B1712003681C7 /* Build configuration list for PBXNativeTarget "yachtGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F7616C1B6B1712003681C7 /* Debug */,
+				46F7616D1B6B1712003681C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F761411B6B1712003681C7 /* Project object */;
+}
